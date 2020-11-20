@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper teal lighten-1">
+        <a href="#" class="brand-logo center">Números por extenso</a>
+      </div>
+    </nav>
+    <div class="container">
+      <p>Escolha um número entre 0 e 999:</p>
+      <p class="range-field">
+        <input
+          type="range"
+          name="num_range"
+          min="0"
+          max="999"
+          step="1"
+          id="num_range"
+          oninput="onInputEvent(event)"
+        />
+      </p>
+      <p>Número atual:</p>
+      <input type="text" disabled readonly name="num" id="num" value="500" />
+      <p>Número por extenso:</p>
+      <input
+        type="text"
+        name="num_in_full"
+        id="num_in_full"
+        value="quinhentos"
+        disabled
+        readonly
+      />
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index.js" defer></script>
+  </body>
+</html>
