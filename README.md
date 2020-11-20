@@ -34,7 +34,7 @@ O applicativo traz uma interface simples, onde um slider pode ser utilizado para
 
 <h1 align="center">
   <br>#Númber in Full - IGTI<br/>
-  #HTML|#CSS|#Javascript
+  #HTML|#Materialize|#Javascript
 </h1>
 
 <p align="center">
